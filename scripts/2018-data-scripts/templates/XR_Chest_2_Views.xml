@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NativeDicomModel xml:space="preserve">
+ <DicomAttribute keyword="ProcedureCodeSequence" tag="00081032" vr="SQ">
+  <Item number="1">
+   <DicomAttribute keyword="CodeValue" tag="00080100" vr="SH">
+    <Value number="1">36643-5</Value>
+   </DicomAttribute>
+   <DicomAttribute keyword="CodingSchemeDesignator" tag="00080102" vr="SH">
+    <Value number="1">2.16.840.1.113883.6.1</Value>
+   </DicomAttribute>
+    <DicomAttribute keyword="CodeMeaning" tag="00080104" vr="LO">
+     <Value number="1">XR Chest 2V</Value>
+    </DicomAttribute>
+  </Item>
+ </DicomAttribute>
+ <DicomAttribute keyword="PatientName" tag="00100010" vr="PN">
+  <Value number="1">ChestXR^TwoViews</Value>
+ </DicomAttribute>
+ <DicomAttribute keyword="PatientBirthDate" tag="00100030" vr="DA">
+  <Value number="1">19601218</Value>
+ </DicomAttribute>
+</NativeDicomModel>
+
